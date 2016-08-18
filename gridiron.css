@@ -1,6 +1,6 @@
 /*  **
   * www.neuetab.com
-  * Licensed under MIT
+  * Licensed under MIT <--- https://github.com/thomase718/Gridiron/blob/master/LICENSE --->
   * Two ways to apply columns in this grid-container
 	1. Use "col-#-sz" if you want to set evenly defined columns (e.g. col-6-m)
 	2. Use "col-size-#" if you want to span content across specified amount of columns (e.g. col-md-6)
@@ -23,6 +23,10 @@ a {cursor:pointer;} p{line-height:1.5em;}
 .row{width:100%; margin:1em 0; padding:0 1em;}
 .row:before,
 .row:after {content:""; display:table; clear:both;}
+.-inline {display:inline-block;}
+.center-block{margin:0 auto;}/** for centering block-level HTML elements ***/
+.center-inline{display:block; margin:0 auto;} /** for centering inline-level HTML elements ***/
+
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
 	float:left;
 }
@@ -131,4 +135,21 @@ padding:0 .5em;
 .col-lg-3 {width: 25%;}
 .col-lg-2 {width: 16.66666667%;}
 .col-lg-1 {width: 8.33333333%;}
+}
+/*classes to hide/show content on specific devices/screen sizes**/	
+@media all and (min-width: 18em) and (max-width:47.9em){
+	.only-m{display:none;}
+	.only-lg{display:none;}
+	.hidden-s{display:none;}
+}
+@media all and (min-width: 48em) and (max-width:69.9em){
+	.only-s{display:none;}
+	.only-lg{display:none;}
+	.hidden-m{display:none;}
+}
+@media all and (min-width: 70em){
+	.only-s{display:none;}
+	.only-m{display:none;}
+	.hidden-lg{display:none;}
+	
 }
