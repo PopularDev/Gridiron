@@ -20,13 +20,21 @@ h1, h2, h3, h4, h5, h6 {font-size:100%; }
 a {cursor:pointer;} p{line-height:1.5em;}
 .grid-container{width:100%; max-width:2600px; height:100%; margin:0 auto;}
 .clearfix{clear:both; margin:.5em 0; }
+.spacer{clear:both; margin:2em 0;} .spacer-2x{clear:both; margin:4em 0;} .spacer-3x{clear:both; margin:6em 0;}
+.spacer-vert{display:inline; margin:0 2em;} .spacer-vert-2x{display:inline; margin:0 4em;} .spacer-vert-3x{display:inline; margin:0 6em;}
 .row{width:100%; margin:1em 0; padding:0 1em;}
 .row:before,
 .row:after {content:""; display:table; clear:both;}
 .-inline {display:inline-block;}
 .center-block{margin:0 auto;}/** for centering block-level HTML elements ***/
 .center-inline{display:block; margin:0 auto;} /** for centering inline-level HTML elements ***/
-
+.lorem-text, .lorem-text:before{
+	content:"Morbi ultrices tellus eu massa blandit, vitae pretium leo pulvinar. Integer vel tempor justo. Nunc congue pretium urna, eu rutrum arcu vehicula nec. Vivamus ultrices pulvinar libero, vitae tincidunt ipsum varius eget. In eget dui id tortor facilisis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean lectus quam, porta eget pharetra non, condimentum vel ligula. ";
+	line-height:1.5em;
+	font-size:1.3em;
+	font-family:Source Sans Pro;
+	
+}
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
 	float:left;
 }
