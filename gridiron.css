@@ -16,7 +16,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;}
 
-h1, h2, h3, h4, h5, h6 {font-size:100%; }
+
 a {cursor:pointer;} p{line-height:1.5em;}
 .grid-container{width:100%; max-width:2600px; height:100%; margin:0 auto;}
 .clearfix{clear:both; margin:.5em 0; }
@@ -26,7 +26,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 .row:before,
 .row:after {content:""; display:table; clear:both;}
 .-inline {display:inline-block;}
-.center-block{margin:0 auto;}/** for centering block-level HTML elements ***/
+.center-block{margin:0 auto;}/**(will possibly need to specify width - see website for example) for centering block-level HTML elements ***/
 .center-inline{display:block; margin:0 auto;} /** for centering inline-level HTML elements ***/
 .lorem-text, .lorem-text:before{
 	content:"Morbi ultrices tellus eu massa blandit, vitae pretium leo pulvinar. Integer vel tempor justo. Nunc congue pretium urna, eu rutrum arcu vehicula nec. Vivamus ultrices pulvinar libero, vitae tincidunt ipsum varius eget. In eget dui id tortor facilisis pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Aenean lectus quam, porta eget pharetra non, condimentum vel ligula. ";
