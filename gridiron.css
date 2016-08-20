@@ -20,7 +20,7 @@
 a {cursor:pointer;} p{line-height:1.5em;}
 .grid-container{width:100%; max-width:2600px; height:100%; margin:0 auto;}
 .clearfix{clear:both; margin:.5em 0; }
-.spacer{clear:both; margin:2em 0;} .spacer-2x{clear:both; margin:4em 0;} .spacer-3x{clear:both; margin:6em 0;}
+.spacer{clear:both; padding:2em 0;} .spacer-2x{clear:both; padding:4em 0;} .spacer-3x{clear:both; padding:6em 0;}
 .spacer-vert{display:inline; margin:0 2em;} .spacer-vert-2x{display:inline; margin:0 4em;} .spacer-vert-3x{display:inline; margin:0 6em;}
 .row{width:100%; margin:1em 0; padding:0 1em;}
 .row:before,
