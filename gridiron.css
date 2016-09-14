@@ -19,10 +19,10 @@
 
 a {cursor:pointer;} p{line-height:1.5em;}
 .grid-container{width:100%; max-width:2600px; height:100%; margin:0 auto;}
-.clearfix{clear:both; margin:.5em 0; }
+.clearfix{clear:both; padding:.5em 0; }
 .spacer{clear:both; padding:2em 0;} .spacer-2x{clear:both; padding:4em 0;} .spacer-3x{clear:both; padding:6em 0;}
-.spacer-vert{display:inline; margin:0 2em;} .spacer-vert-2x{display:inline; margin:0 4em;} .spacer-vert-3x{display:inline; margin:0 6em;}
-.row{width:100%; margin:1em 0; padding:0 1em;}
+.spacer-vert{display:inline; padding:0 2em;} .spacer-vert-2x{display:inline; padding:0 4em;} .spacer-vert-3x{display:inline; padding:0 6em;}
+.row{width:100%; margin:0; padding:.25em 0;}
 .row:before,
 .row:after {content:""; display:table; clear:both;}
 .-inline {display:inline-block;}
@@ -39,7 +39,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 @media all and (min-width: 18em){/*mobile phone styles 300px and up*/
 .full-width-s, .half-width-s, .third-s, .quarter-s, .fifth-s, .sixth-s, .seventh-s, .eighth-s, .nineth-s, .tenth-s, .eleventh-s, .twelfth-s, .across-1-s, .across-2-s, .across-3-s, .across-4-s, .across-5-s, .across-6-s, .across-7-s, .across-8-s, .across-9-s, .across-10-s, .across-11-s, .across-12-s{
 	float:left;
-	padding:0 .5em; margin: .5em 0;
+	padding:0 .25em; margin:0;
 }
 .full-width-s{width:100%;}
 .half-width-s{ width:50%;}
@@ -70,7 +70,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 @media all and (min-width: 48em){/*tablet styles =768px*/
 .full-width-m, .half-width-m, .third-m, .quarter-m, .fifth-m, .sixth-m, .seventh-m, .eighth-m, .nineth-m, .tenth-m, .eleventh-m, .twelfth-m, .across-1-m, .across-2-m, .across-3-m, .across-4-m, .across-5-m, .across-6-m, .across-7-m, .across-8-m, .across-9-m, .across-10-m, .across-11-m, .across-12-m{
 	float:left;
-	padding:0 .5em; margin: .5em 0;
+	padding:0 .25em; margin:0;
 }
 .full-width-m{width:100%;}
 .half-width-m{ width:50%;}
@@ -100,7 +100,7 @@ a {cursor:pointer;} p{line-height:1.5em;}
 @media all and (min-width: 70em){/*all other and higher 1120px+ */
 .full-width-lg, .half-width-lg, .third-lg, .quarter-lg, .fifth-lg, .sixth-lg, .seventh-lg, .eighth-lg, .nineth-lg, .tenth-lg, .eleventh-lg, .twelfth-lg, .across-1-lg, .across-2-lg, .across-3-lg, .across-4-lg, .across-5-lg, .across-6-lg, .across-7-lg, .across-8-lg, .across-9-lg, .across-10-lg, .across-11-lg, .across-12-lg{
 	float:left;
-	padding:0 .5em; margin: .5em 0;
+	padding:0 .25em; margin:0;
 }
 .full-width-lg{width:100%;}
 .half-width-lg{ width:50%;}
