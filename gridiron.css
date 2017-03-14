@@ -129,12 +129,12 @@ a {cursor:pointer;} p{line-height:1.5em;}
 .across-1-lg {width: 8.33333333%;}
 }
 /*classes to hide/show content on specific devices/screen sizes**/	
-@media all and (min-width: 18em) and (max-width:47.9em){
+@media all and (min-width: 18em) and (max-width:47.99em){
 	.only-m{display:none;}
 	.only-lg{display:none;}
 	.hidden-s{display:none;}
 }
-@media all and (min-width: 48em) and (max-width:69.9em){
+@media all and (min-width: 48em) and (max-width:69.99em){
 	.only-s{display:none;}
 	.only-lg{display:none;}
 	.hidden-m{display:none;}
